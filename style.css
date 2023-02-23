@@ -1,0 +1,20 @@
+#siteHeader {
+    padding: 15px 0 0;
+
+}
+
+
+#wrapper {
+    padding: 0 30px;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+#navbar {
+    display: table;
+    table-layout: fixed;
+    width: 100%
+}
+
+#tinyhorseLogo {
+    font-family: ITC Avant Garde Gothic, sans-serif;
+}
