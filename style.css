@@ -1,20 +1,41 @@
 #siteHeader {
-    padding: 15px 0 0;
-
+  padding: 15px 0 0;
 }
-
 
 #wrapper {
-    padding: 0 30px;
-    max-width: 1050px;
-    margin: 0 auto;
+  padding: 0 30px;
+  max-width: 1050px;
+  margin: 0 auto;
 }
 #navbar {
-    display: table;
-    table-layout: fixed;
-    width: 100%
+  display: table;
+  table-layout: fixed;
+  width: 100%;
 }
 
 #tinyhorseLogo {
-    font-family: ITC Avant Garde Gothic, sans-serif;
+  font-family: ITC Avant Garde Gothic, sans-serif;
+}
+
+.payment a,
+.bi,
+.bi-icon {
+  color: #00bdf7;
+}
+.payment__img {
+  min-height: 50vh;
+  width: 100%;
+}
+.payment__img img {
+  min-height: 100%;
+  width: 100%;
+}
+.btn {
+  border-radius: 0;
+}
+.pad-y {
+  padding: 2rem 0;
+}
+.pad-t {
+  padding: 2rem 0 0 0;
 }
