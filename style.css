@@ -39,3 +39,16 @@
 .pad-t {
   padding: 2rem 0 0 0;
 }
+
+.lead-all {
+  min-height: 100vh;
+  background: #ffffff;
+}
+.row-1 > * img {
+  width: 70%;
+  height: 70%;
+}
+.row-1 {
+  padding: 2rem 0;
+  width: 100%;
+}
