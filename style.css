@@ -1,11 +1,8 @@
-#siteHeader {
+/* #siteHeader {
   padding: 15px 0 0;
-}
+} */
 
 #wrapper {
-  padding: 0 30px;
-  max-width: 1050px;
-  margin: 0 auto;
 }
 #navbar {
   display: table;
@@ -15,6 +12,9 @@
 
 #tinyhorseLogo {
   font-family: ITC Avant Garde Gothic, sans-serif;
+}
+.carousel-item {
+  max-height: 100vh;
 }
 
 .payment a,
@@ -51,4 +51,28 @@
 .row-1 {
   padding: 2rem 0;
   width: 100%;
+}
+.sales-section > * img {
+  width: 80%;
+  height: 80%;
+}
+.sales-circle {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #9f1a1a;
+  border-radius: 50px;
+  color: #9f1a1a;
+}
+.sales-circle > * {
+  position: absolute;
+}
+.first_p {
+  top: 1.8rem;
 }
